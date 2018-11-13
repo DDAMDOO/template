@@ -2798,27 +2798,27 @@ public class Imgproc {
     //javadoc: circle(img, center, radius, color, thickness, lineType, shift)
     public static void circle(Mat img, Point center, int radius, Scalar color, int thickness, int lineType, int shift)
     {
-        
+
         circle_0(img.nativeObj, center.x, center.y, radius, color.val[0], color.val[1], color.val[2], color.val[3], thickness, lineType, shift);
-        
+
         return;
     }
 
     //javadoc: circle(img, center, radius, color, thickness)
     public static void circle(Mat img, Point center, int radius, Scalar color, int thickness)
     {
-        
+
         circle_1(img.nativeObj, center.x, center.y, radius, color.val[0], color.val[1], color.val[2], color.val[3], thickness);
-        
+
         return;
     }
 
     //javadoc: circle(img, center, radius, color)
     public static void circle(Mat img, Point center, int radius, Scalar color)
     {
-        
+
         circle_2(img.nativeObj, center.x, center.y, radius, color.val[0], color.val[1], color.val[2], color.val[3]);
-        
+
         return;
     }
 
@@ -2830,27 +2830,27 @@ public class Imgproc {
     //javadoc: ellipse(img, center, axes, angle, startAngle, endAngle, color, thickness, lineType, shift)
     public static void ellipse(Mat img, Point center, Size axes, double angle, double startAngle, double endAngle, Scalar color, int thickness, int lineType, int shift)
     {
-        
+
         ellipse_3(img.nativeObj, center.x, center.y, axes.width, axes.height, angle, startAngle, endAngle, color.val[0], color.val[1], color.val[2], color.val[3], thickness, lineType, shift);
-        
+
         return;
     }
 
     //javadoc: ellipse(img, center, axes, angle, startAngle, endAngle, color, thickness)
     public static void ellipse(Mat img, Point center, Size axes, double angle, double startAngle, double endAngle, Scalar color, int thickness)
     {
-        
+
         ellipse_4(img.nativeObj, center.x, center.y, axes.width, axes.height, angle, startAngle, endAngle, color.val[0], color.val[1], color.val[2], color.val[3], thickness);
-        
+
         return;
     }
 
     //javadoc: ellipse(img, center, axes, angle, startAngle, endAngle, color)
     public static void ellipse(Mat img, Point center, Size axes, double angle, double startAngle, double endAngle, Scalar color)
     {
-        
+
         ellipse_5(img.nativeObj, center.x, center.y, axes.width, axes.height, angle, startAngle, endAngle, color.val[0], color.val[1], color.val[2], color.val[3]);
-        
+
         return;
     }
 
