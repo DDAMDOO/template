@@ -60,7 +60,6 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     /**
      * selected area is the camera preview cut to the crop rectangle
      */
-    Mat selectedArea;
 
     /**
      * frame size width
