@@ -39,7 +39,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     /**
      * the template image to use
      */
-    private static final int TEMPLATE_IMAGE = R.drawable.pxl;
+    private static final int TEMPLATE_IMAGE = R.drawable.sensei;
     /**
      * the result matrix
      */
