@@ -10,7 +10,7 @@ public class Start_Activity extends Activity {
         super.onCreate(savedInstanceState);
 
         try{
-            Thread.sleep(1000);
+            Thread.sleep(500);
         }catch(InterruptedException e){
             e.printStackTrace();
         }
