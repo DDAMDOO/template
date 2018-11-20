@@ -1,31 +1,41 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:background="@drawable/emart_white1"
-    android:screenOrientation="portrait">
+    android:id="@+id/linearLayout4">
 
      <TextView
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:baselineAligned="false"
+         android:text="매장정보"
          android:textColor="#837E87"
-         android:text="매장정보" />
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.13999999" />
 
      <TableLayout
-         android:layout_width="match_parent"
-         android:layout_height="match_parent"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
          android:gravity="center_horizontal|center"
-         android:stretchColumns="*">
+         android:stretchColumns="*"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.27"  >
 
           <View
               android:layout_width="match_parent"
               android:layout_height="10dp" />
 
           <TableRow
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content">
+              android:layout_width="300dp"
+              android:layout_height="match_parent">
 
                <TextView
                    android:layout_width="215dp"
@@ -34,7 +44,7 @@
                    android:gravity="center"
                    android:padding="3dp"
                    android:text="1호점"
-                   android:textColor="#837E87"/>
+                   android:textColor="#837E87" />
 
                <Button
                    android:id="@+id/button10"
@@ -52,13 +62,13 @@
               android:layout_height="wrap_content">
 
                <TextView
-                   android:layout_width="wrap_content"
+                   android:layout_width="100dp"
                    android:layout_height="wrap_content"
                    android:layout_marginBottom="1dp"
                    android:gravity="center"
                    android:padding="3dp"
                    android:text="2호점"
-                   android:textColor="#837E87"/>
+                   android:textColor="#837E87" />
 
                <Button
                    android:id="@+id/button11"
@@ -81,7 +91,7 @@
                    android:gravity="center"
                    android:padding="3dp"
                    android:text="3호점"
-                   android:textColor="#837E87"/>
+                   android:textColor="#837E87" />
 
                <Button
                    android:id="@+id/button12"
@@ -93,5 +103,7 @@
                    app:layout_constraintTop_toTopOf="parent" />
           </TableRow>
 
+
+
      </TableLayout>
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>
