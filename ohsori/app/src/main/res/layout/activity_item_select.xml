@@ -11,9 +11,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:text="상품정보"
-        android:textColor="#837E87"/>
+        android:textColor="#837E87"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295" />
 
     <TableLayout
         android:layout_width="match_parent"
@@ -30,7 +34,7 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:layout_width="215dp"
+                android:layout_width="129dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="1dp"
                 android:gravity="center"
