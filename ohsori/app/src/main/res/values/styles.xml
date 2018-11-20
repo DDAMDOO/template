@@ -9,6 +9,6 @@
     </style>
 
     <style name="SplashTheme" parent="@android:style/Theme.Light.NoTitleBar">
-        <item name="android:windowBackground">@drawable/asdf</item>
+        <item name="android:windowBackground">@drawable/emart</item>
     </style>
 </resources>

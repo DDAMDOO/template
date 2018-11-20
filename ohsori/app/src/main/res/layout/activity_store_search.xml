@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".store_search_Activity">
+    android:background="@drawable/emart_white1"
+    tools:context=".store_search_Activity"
+    android:screenOrientation="portrait">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="매장을 검색하세요!"
+        android:textColor="#837E87"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -24,6 +27,7 @@
         android:layout_marginEnd="50dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="208dp"
+        android:textColorHint="#837E87"
         android:hint="매장명을 입력하세요."
         android:inputType="textCapWords"
         android:textSize="18dp"

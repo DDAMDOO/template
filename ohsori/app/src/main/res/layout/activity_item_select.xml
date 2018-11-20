@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".item_select_Activity">
+    android:background="@drawable/emart_white1"
+    tools:context=".item_select_Activity"
+    android:screenOrientation="portrait">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="상품정보" />
+        android:text="상품정보"
+        android:textColor="#837E87"/>
 
     <TableLayout
         android:layout_width="match_parent"
@@ -32,7 +35,8 @@
                 android:layout_marginBottom="1dp"
                 android:gravity="center"
                 android:padding="3dp"
-                android:text="아이비" />
+                android:text="아이비"
+                android:textColor="#837E87"/>
 
             <Button
                 android:id="@+id/button10"
@@ -55,7 +59,8 @@
                 android:layout_marginBottom="1dp"
                 android:gravity="center"
                 android:padding="3dp"
-                android:text="오예스" />
+                android:text="오예스"
+                android:textColor="#837E87"/>
 
             <Button
                 android:id="@+id/button11"
@@ -77,7 +82,8 @@
                 android:layout_marginBottom="1dp"
                 android:gravity="center"
                 android:padding="3dp"
-                android:text="칸쵸" />
+                android:text="칸쵸"
+                android:textColor="#837E87"/>
 
             <Button
                 android:id="@+id/button12"

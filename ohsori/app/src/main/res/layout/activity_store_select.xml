@@ -1,20 +1,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:orientation="vertical">
+    android:background="@drawable/emart_white1"
+    android:screenOrientation="portrait">
 
      <TextView
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:layout_gravity="center"
+         android:baselineAligned="false"
+         android:textColor="#837E87"
          android:text="매장정보" />
 
      <TableLayout
          android:layout_width="match_parent"
          android:layout_height="match_parent"
-         android:gravity="center_vertical|center_horizontal"
+         android:gravity="center_horizontal|center"
          android:stretchColumns="*">
 
           <View
@@ -31,7 +33,8 @@
                    android:layout_marginBottom="1dp"
                    android:gravity="center"
                    android:padding="3dp"
-                   android:text="1호점" />
+                   android:text="1호점"
+                   android:textColor="#837E87"/>
 
                <Button
                    android:id="@+id/button10"
@@ -54,7 +57,8 @@
                    android:layout_marginBottom="1dp"
                    android:gravity="center"
                    android:padding="3dp"
-                   android:text="2호점" />
+                   android:text="2호점"
+                   android:textColor="#837E87"/>
 
                <Button
                    android:id="@+id/button11"
@@ -76,7 +80,8 @@
                    android:layout_marginBottom="1dp"
                    android:gravity="center"
                    android:padding="3dp"
-                   android:text="3호점" />
+                   android:text="3호점"
+                   android:textColor="#837E87"/>
 
                <Button
                    android:id="@+id/button12"
