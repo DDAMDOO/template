@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Follow_Cam : MonoBehaviour {
 
-    public Transform target;
+    public Imagetarget img1;
+
 
     private Transform tr;
 	// Use this for initialization
