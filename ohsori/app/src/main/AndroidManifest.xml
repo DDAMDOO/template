@@ -25,7 +25,8 @@
         <activity android:name=".store_search_Activity" />
         <activity android:name=".store_select_Activity" />
         <activity android:name=".item_search_Activity" />
-        <activity android:name=".item_select_Activity">
+        <activity android:name=".item_select_Activity"/>
+        <activity android:name=".UnityPlayerActivity">
         </activity>
     </application>
 
