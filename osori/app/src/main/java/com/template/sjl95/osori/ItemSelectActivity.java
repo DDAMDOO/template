@@ -20,7 +20,8 @@ public class ItemSelectActivity extends AppCompatActivity {
     }
 
     public void onButtonClicked1(View v){
-        Intent intent = new Intent(getApplicationContext(), ItemSearchActivity.class);
+//        Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.package.address");
+        Intent intent = new Intent(getApplicationContext(),UnityPlayerActivity.class);
         startActivity(intent);
     }
 
