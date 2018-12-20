@@ -14,24 +14,20 @@ public class ItemSelectActivity extends AppCompatActivity {
         setContentView(R.layout.activity_item_select);
     }
 
-    public void onBackButtonClicked(View v){
-        Toast.makeText(getApplicationContext(), "돌아가기를 누름", Toast.LENGTH_LONG).show();
-        finish();
-    }
 
     public void onButtonClicked1(View v){
-        Intent intent = getPackageManager().getLaunchIntentForPackage("com.osori.suckjjang");
+        Intent intent = getPackageManager().getLaunchIntentForPackage("com.osori.select");
 //        Intent intent = new Intent(getApplicationContext(),UnityPlayerActivity.class);
         startActivity(intent);
     }
 
     public void onButtonClicked2(View v){
-        Intent intent = new Intent(getApplicationContext(), ItemSearchActivity.class);
+        Intent intent = getPackageManager().getLaunchIntentForPackage("com.osori.select1");
         startActivity(intent);
     }
 
     public void onButtonClicked3(View v){
-        Intent intent = new Intent(getApplicationContext(), ItemSelectActivity.class);
+        Intent intent = getPackageManager().getLaunchIntentForPackage("com.osori.select2");
         startActivity(intent);
     }
 }

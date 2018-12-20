@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="white" size="200.000000 137.984497" />
+    <ImageTarget name="hrball" size="200.000000 101.889763" />
+    <ImageTarget name="cho" size="140.000000 74.890701" />
+    <ImageTarget name="mong" size="230.000000 108.529633" />
+    <ImageTarget name="bbotto" size="180.000000 122.334953" />
+    <ImageTarget name="1000" size="137.000000 66.413704" />
+    <ImageTarget name="pad" size="220.000000 168.136307" />
+  </Tracking>
+</QCARConfig>
